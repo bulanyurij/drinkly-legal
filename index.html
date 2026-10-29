@@ -1,21 +1,87 @@
 <!doctype html>
-<html lang="uk">
+<html lang="en" data-lang="en" data-title-en="Drinkly — water tracker for phone and watch" data-title-uk="Drinkly — облік води на телефоні й годиннику">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Drinkly</title>
-<link rel="stylesheet" href="legal.css">
+<title>Drinkly — water tracker for phone and watch</title>
+<meta name="description" content="Drinkly works out your daily water goal and lets you log a drink from your phone or your watch.">
+<link rel="icon" href="img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;800&display=swap">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="img/icon.png" alt="">Drinkly</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="en" aria-pressed="true">EN</button>
+      <button type="button" data-set="uk" aria-pressed="false">UK</button>
+    </div>
+  </div>
+</header>
+
 <main>
-<h1>Drinkly</h1>
-<p>Облік води на телефоні й годиннику · Water tracking on your phone and watch.</p>
-<ul>
-<li><a href="get.html">Завантажити застосунок · Get the app</a></li>
-<li><a href="privacy.html">Політика конфіденційності · Privacy Policy</a></li>
-<li><a href="terms.html">Умови використання · Terms of Use</a></li>
-</ul>
-<p class="meta">bulan.yurij@gmail.com</p>
+  <section class="wrap hero">
+    <div>
+      <img class="hero-icon" src="img/icon.png" width="192" height="192" alt="">
+      <h1 data-l="en">Drink enough.<br><em>Without thinking.</em></h1>
+      <h1 data-l="uk">Пийте достатньо.<br><em>Не думаючи.</em></h1>
+      <p class="lead" data-l="en">Drinkly is a water tracker for your phone and watch. It works out your daily goal from weight, activity and weather, and logs a drink in one tap.</p>
+      <p class="lead" data-l="uk">Drinkly — облік води на телефоні й годиннику. Він рахує вашу денну норму з ваги, активності й погоди та записує напій одним дотиком.</p>
+
+      <div class="badges">
+        <a class="badge" href="https://play.google.com/store/apps/details?id=com.bulany.drinkly.android" rel="noopener">
+          <img data-l="en" src="img/google-play-en.png" width="564" height="168" alt="Get it on Google Play">
+          <img data-l="uk" src="img/google-play-uk.png" width="646" height="192" alt="Завантажити з Google Play">
+        </a>
+        <a class="badge" href="https://appgallery.huawei.com/app/C119541665" rel="noopener">
+          <img src="img/appgallery-en.svg" width="564" height="168" alt="Explore it on AppGallery">
+        </a>
+      </div>
+      <p class="note" data-l="en">Watch app: <a href="get.html#watch">HUAWEI WATCH GT 3 →</a></p>
+      <p class="note" data-l="uk">Застосунок для годинника: <a href="get.html#watch">HUAWEI WATCH GT 3 →</a></p>
+    </div>
+    <div class="shot">
+      <img data-l="en" src="img/05-watch-en.jpg" width="450" height="550" alt="Drinkly on a round watch: 750 of 2 000 ml">
+      <img data-l="uk" src="img/05-watch-uk.jpg" width="450" height="550" alt="Drinkly на круглому годиннику">
+    </div>
+  </section>
+
+  <section class="wrap links">
+    <a class="link-card" href="get.html">
+      <b data-l="en">Get the app</b><b data-l="uk">Завантажити застосунок</b>
+      <span data-l="en">Phone stores and how to install Drinkly on your watch.</span>
+      <span data-l="uk">Магазини для телефона й встановлення на годинник.</span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="link-card" href="privacy.html">
+      <b data-l="en">Privacy Policy</b><b data-l="uk">Політика конфіденційності</b>
+      <span data-l="en">No account, no ads, no tracking. Your records stay on your devices.</span>
+      <span data-l="uk">Без акаунта, реклами й стеження. Записи лишаються на ваших пристроях.</span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="link-card" href="terms.html">
+      <b data-l="en">Terms of Use</b><b data-l="uk">Умови використання</b>
+      <span data-l="en">Drinkly Pro, subscriptions and the rules of the service.</span>
+      <span data-l="uk">Drinkly Pro, підписки та правила сервісу.</span>
+      <span class="arrow">→</span>
+    </a>
+  </section>
 </main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Drinkly</span>
+    <nav>
+      <a href="privacy.html"><span data-l="en">Privacy Policy</span><span data-l="uk">Політика конфіденційності</span></a>
+      <a href="terms.html"><span data-l="en">Terms of Use</span><span data-l="uk">Умови використання</span></a>
+      <span>bulan.yurij@gmail.com</span>
+    </nav>
+  </div>
+</footer>
+
+<script src="site.js"></script>
 </body>
 </html>
