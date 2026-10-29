@@ -120,6 +120,6 @@ footer a { color: var(--muted); }
   .doc table, .doc tr, .doc td, .doc th { display: block; }
   .doc tr { padding: 10px 14px; border-bottom: 1px solid var(--line); }
   .doc tr:last-child { border-bottom: 0; }
-  .doc th { display: none; }
+  .doc th, .doc tr:has(th) { display: none; }
   .doc td { border: 0; padding: 2px 0; }
 }
